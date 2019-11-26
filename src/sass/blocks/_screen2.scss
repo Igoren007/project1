@@ -1,0 +1,29 @@
+.screen2 {
+    min-height: 822px;
+    padding: 155px 0 155px 0;
+    background-color: #2f2339;
+    &__wrap {
+        display: block;
+        width: 558px;
+        margin-left: 50%;
+    }
+    &__title {
+        color: #ffffff;
+        font-family: "Montserrat";
+        font-size: 51px;
+        font-weight: 700;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin-top: 52px;
+        margin-bottom: 68px;
+        color: #bfbfbf;
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.45px;
+
+    }
+}

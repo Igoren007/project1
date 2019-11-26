@@ -1,12 +1,17 @@
-@import 'libs/bootstrap-reboot.min';
-
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'libs/font';
 @import 'base/variables';
 
 * {
-    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
-    max-width: 950px;
+    max-width: 1330px;
     margin: 0 auto;
 }
+
+@import 'blocks/header.scss';
+@import 'blocks/promo.scss';
+@import 'blocks/button.scss';
+@import 'blocks/screen2.scss';
