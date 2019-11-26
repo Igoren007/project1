@@ -1,0 +1,19 @@
+.screen5 {
+    min-height: 823px;
+    &__title {
+        color: #000;
+        font-family: "Montserrat";
+        font-size: 51px;
+        font-weight: 700;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+    &__line {
+        height: 414px;
+        background-color: #ee5d30;
+    }
+    img {
+        width: 328px;
+        height: 591px;
+    }
+}

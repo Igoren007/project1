@@ -1,0 +1,66 @@
+.screen3 {
+    position: relative;
+    min-height: 822px;
+    padding: 93px 0 215px 0;
+
+    &__title {
+        display: block;
+        position: absolute;
+        margin-top: 247px;
+        margin-right: 40px;
+    }
+    &__info {
+        display: block;
+        position: absolute;
+        left: 197px;
+        width: 1224px;
+        height: 312px;
+        
+    }
+    &__weare {
+        padding: 64px 0 54px 85px;
+        display: flex;
+        width: 1224px;
+        height: 312px;
+        background-color: #ee5d30;
+        &-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-right: 223px;
+        }
+        &-round {
+            width: 104px;
+            height: 104px;
+            background-color: #ffffff;
+            border-radius: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 41px;
+        }
+        &-title {
+            color: #ffffff;
+            font-family: Lato;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 30px;
+            letter-spacing: 0.6px;
+        }
+    }
+    &__text {
+        margin-top: 35px;
+        display: flex;
+        padding-left: 91px;
+        &-item {
+            width: 236px;
+            margin-right: 99px;
+            color: #333333;
+            font-family: Lato;
+            font-size: 18px;
+            font-weight: 400;
+            letter-spacing: 0.45px;
+            line-height: 30px;
+        }
+    }
+}
