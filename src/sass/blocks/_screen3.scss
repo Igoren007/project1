@@ -1,8 +1,16 @@
 .screen3 {
     position: relative;
     min-height: 822px;
-    padding: 93px 0 215px 0;
-
+    padding: 157px 0 215px 0;
+    &__back {
+        position: absolute;
+        top: 93px;
+        right: 0;
+        width: 66%;
+        height: 312px;
+        background-color:#ee5d30;
+        z-index: -1;
+    }
     &__header {
         position: absolute;
         display: block;
@@ -25,6 +33,7 @@
         &-item {
             display: flex;
             flex-direction: column;
+            //margin-left: 10px;
             margin-right: 96px;
             &:last-child {
                 margin-right: 0;
@@ -33,7 +42,7 @@
         &-round {
             width: 104px;
             height: 104px;
-            background-color: brown;
+            background-color: #fff;
             border-radius: 100%;
             display: flex;
             justify-content: center;
@@ -41,7 +50,7 @@
             margin-bottom: 41px;
         }
         &-title {
-            color: red;
+            color: #fff;
             font-family: Lato;
             font-size: 24px;
             font-weight: 700;
